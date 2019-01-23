@@ -1,0 +1,9 @@
+﻿订单号：$order.Id
+订单状态阶段性通知。
+#if($order.State==0)
+	库存查询
+#elseif($order.State==1)
+	开始配送
+#elseif($order.State==2)
+	结束配送
+#end

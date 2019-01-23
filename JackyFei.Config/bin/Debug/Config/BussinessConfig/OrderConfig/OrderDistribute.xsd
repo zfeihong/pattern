@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="OrderDistributeRoot" 
+           targetNamespace="http://www.oncefly.com" 
+           xmlns="http://www.oncefly.com" 
+           xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           elementFormDefault="qualified">
+  <xs:element name="OrderDistributeRoot">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="DistributeTime">
+          <xs:complexType>
+            <xs:attribute name="StartTime" use="required">
+              <xs:simpleType>
+                <xs:restriction base="xs:time">
+                  <xs:enumeration value="09:00:00"/>
+                  <xs:enumeration value="10:00:00"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="EndTime" use="required">
+              <xs:simpleType>
+                <xs:restriction base="xs:time">
+                  <xs:enumeration value="23:00:00"/>
+                  <xs:enumeration value="23:55:00"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="DistributeType">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration id="Normal" value="正常配送"/>
+                  <xs:enumeration id="Urgent" value="紧急配送"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DistributeArea">
+          <xs:complexType>
+            <xs:attribute name="BeginArea" use="required">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration id="Shanghai_BeginArea" value="上海"></xs:enumeration>
+                  <xs:enumeration id="Beijing_BeginArea" value="北京"></xs:enumeration>
+                  <xs:enumeration id="Chengdu_BeginArea" value="成都"></xs:enumeration>
+                  <xs:enumeration id="Hangzhou_BeginArea" value="杭州"></xs:enumeration>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="EndArea" use="required">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration id="Shanghai_EndArea" value="上海"></xs:enumeration>
+                  <xs:enumeration id="Beijing_EndArea" value="北京"></xs:enumeration>
+                  <xs:enumeration id="Chengdu_EndArea" value="成都"></xs:enumeration>
+                  <xs:enumeration id="Hangzhou_EndArea" value="杭州"></xs:enumeration>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

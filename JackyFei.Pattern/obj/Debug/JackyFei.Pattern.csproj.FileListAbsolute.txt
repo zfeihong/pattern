@@ -1,0 +1,6 @@
+D:\Demo\Anta.Framework\JackyFei.Pattern\bin\Debug\JackyFei.Pattern.exe.config
+D:\Demo\Anta.Framework\JackyFei.Pattern\bin\Debug\JackyFei.Pattern.exe
+D:\Demo\Anta.Framework\JackyFei.Pattern\bin\Debug\JackyFei.Pattern.pdb
+D:\Demo\Anta.Framework\JackyFei.Pattern\obj\Debug\JackyFei.Pattern.csprojResolveAssemblyReference.cache
+D:\Demo\Anta.Framework\JackyFei.Pattern\obj\Debug\JackyFei.Pattern.exe
+D:\Demo\Anta.Framework\JackyFei.Pattern\obj\Debug\JackyFei.Pattern.pdb

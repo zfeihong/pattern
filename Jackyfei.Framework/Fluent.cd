@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Jackyfei.Framework.Fluent.ExtHelper">
+    <Position X="3.75" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Fluent\ExtHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jackyfei.Framework.Fluent.RequestConfigContext">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAgAAAAAAAAABAAAiAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fluent\RequestConfigContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jackyfei.Framework.Fluent.RequestConfigManager">
+    <Position X="3.75" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAgAAAAAAAAAACAgAAAAAAAEAAAA=</HashCode>
+      <FileName>Fluent\RequestConfigManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jackyfei.Framework.Fluent.RequestContext">
+    <Position X="2" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAgAAAAAAAAABAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fluent\RequestContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jackyfei.Framework.Fluent.RequestProtocol">
+    <Position X="2" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAQAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fluent\RequestProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

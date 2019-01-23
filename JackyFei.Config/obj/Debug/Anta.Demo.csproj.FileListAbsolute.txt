@@ -1,0 +1,7 @@
+D:\Demo\Anta.Demo\Anta.Demo\bin\Debug\Anta.Demo.exe.config
+D:\Demo\Anta.Demo\Anta.Demo\bin\Debug\Anta.Demo.exe
+D:\Demo\Anta.Demo\Anta.Demo\bin\Debug\Anta.Demo.pdb
+D:\Demo\Anta.Demo\Anta.Demo\obj\Debug\Anta.Demo.csprojResolveAssemblyReference.cache
+D:\Demo\Anta.Demo\Anta.Demo\obj\Debug\Anta.Demo.exe
+D:\Demo\Anta.Demo\Anta.Demo\obj\Debug\Anta.Demo.pdb
+D:\Demo\Anta.Demo\Anta.Demo\bin\Debug\JackyFei.Demo.exe.config

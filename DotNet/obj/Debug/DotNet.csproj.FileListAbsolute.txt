@@ -1,0 +1,6 @@
+D:\Demo\Anta.Framework\DotNet\bin\Debug\DotNet.exe.config
+D:\Demo\Anta.Framework\DotNet\bin\Debug\DotNet.exe
+D:\Demo\Anta.Framework\DotNet\bin\Debug\DotNet.pdb
+D:\Demo\Anta.Framework\DotNet\obj\Debug\DotNet.exe
+D:\Demo\Anta.Framework\DotNet\obj\Debug\DotNet.pdb
+D:\Demo\Anta.Framework\DotNet\obj\Debug\DotNet.csprojResolveAssemblyReference.cache

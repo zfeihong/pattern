@@ -1,0 +1,4 @@
+D:\Demo\Anta.Framework\Oncefly.StrongName.Common\bin\Debug\Oncefly.StrongName.Common.dll
+D:\Demo\Anta.Framework\Oncefly.StrongName.Common\bin\Debug\Oncefly.StrongName.Common.pdb
+D:\Demo\Anta.Framework\Oncefly.StrongName.Common\obj\Debug\Oncefly.StrongName.Common.dll
+D:\Demo\Anta.Framework\Oncefly.StrongName.Common\obj\Debug\Oncefly.StrongName.Common.pdb

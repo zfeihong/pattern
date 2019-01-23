@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<OrderDistributeRoot xmlns="http://www.oncefly.com"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:schemaLocation="http://www.oncefly.com/
+                     OrderDistribute.xsd">
+  <DistributeTime StartTime="10:00:00" EndTime="23:00:00" DistributeType="正常配送" />
+  <DistributeArea BeginArea="上海" EndArea="北京"/>
+  
+</OrderDistributeRoot>

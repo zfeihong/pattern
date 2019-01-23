@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Jackyfei.Framework.Context.Request">
+    <Position X="2.75" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\Request.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jackyfei.Framework.Context.ServiceProxyRequest">
+    <Position X="2.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\ServiceProxyRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jackyfei.Framework.SOAServiceCallContext" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACCIAAAACAAAAAAAAAAAAAAAAYgAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Context\SOAServiceCallContext.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Jackyfei.Framework.ContextManager">
+    <Position X="5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\ContextManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jackyfei.Framework.Context.ServiceProxy">
+    <Position X="5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\ServiceProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jackyfei.Framework.LogTracklocation">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\SOAServiceCallContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jackyfei.Framework.TransactionActionInfo">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\SOAServiceCallContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="Jackyfei.Framework.SOAServiceCallContextHandler&lt;T&gt;">
+    <Position X="7.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\SOAServiceCallContext.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

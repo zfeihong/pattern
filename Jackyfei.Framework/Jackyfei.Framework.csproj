@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{81FFA11B-64FF-4C0B-AF08-0D7267D9CC5F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Jackyfei.Framework</RootNamespace>
+    <AssemblyName>Jackyfei.Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AsyncMessage\Entity\Message.cs" />
+    <Compile Include="AsyncMessage\Entity\MessageOperationState.cs" />
+    <Compile Include="AsyncMessage\Entity\OperationState.cs" />
+    <Compile Include="AsyncMessage\Entity\Order.cs" />
+    <Compile Include="AsyncMessage\Interface\IOrderService.cs" />
+    <Compile Include="AsyncMessage\MessageOperationStateDictionary.cs" />
+    <Compile Include="AsyncMessage\MessageQueue.cs" />
+    <Compile Include="AsyncMessage\OrderService.cs" />
+    <Compile Include="AsyncMessage\OrderServiceProxy.cs" />
+    <Compile Include="BusMessageRouting\Entity\Message.cs" />
+    <Compile Include="BusMessageRouting\Entity\MessageHeader.cs" />
+    <Compile Include="BusMessageRouting\Entity\Order.cs" />
+    <Compile Include="BusMessageRouting\MessageBus.cs" />
+    <Compile Include="BusMessageRouting\OrderService.cs" />
+    <Compile Include="BusMessageRouting\ServiceBase.cs" />
+    <Compile Include="BusMessageRouting\ServiceRegister.cs" />
+    <Compile Include="BusMessageRouting\ServiceRouting.cs" />
+    <Compile Include="Context\ServiceProxy.cs" />
+    <Compile Include="Context\ServiceProxyRequest.cs" />
+    <Compile Include="Contract\Contracts\ContractBase.cs" />
+    <Compile Include="Contract\ContractValidatorException.cs" />
+    <Compile Include="Contract\Entity\ProductStock.cs" />
+    <Compile Include="Contract\Interface\IProductStockService.cs" />
+    <Compile Include="Contract\ProductStockLocalMember.cs" />
+    <Compile Include="Contract\ProductStockService.cs" />
+    <Compile Include="Contract\Contracts\ProductStockServiceContract.cs" />
+    <Compile Include="Contract\Contracts\SearchProductStockResponseContract.cs" />
+    <Compile Include="Contract\Contracts\SearchProductStockRequestContract.cs" />
+    <Compile Include="Contract\Util\FluentContractValidator.cs" />
+    <Compile Include="Contract\Util\Validator.cs" />
+    <Compile Include="Contract\Util\ValidatorContainer.cs" />
+    <Compile Include="Metadata\Entity\Item.cs" />
+    <Compile Include="Metadata\Memory\MemoryColumnMetadata.cs" />
+    <Compile Include="Metadata\Memory\MemoryTableMetadata.cs" />
+    <Compile Include="Metadata\Memory\MemoryMetadataPool.cs" />
+    <Compile Include="Metadata\Memory\MemoryPoolItem.cs" />
+    <Compile Include="Metadata\Order.cs" />
+    <Compile Include="Metadata\RepositoryDesign\ItemRepositroyDesign.cs" />
+    <Compile Include="Metadata\RepositoryDesign\OrderRepositroyDesign.cs" />
+    <Compile Include="Metadata\RepositoryDesign\RepositoryDesignBase.cs" />
+    <Compile Include="Passivation\GeneralManager.cs" />
+    <Compile Include="Passivation\Entity\CustomerInfo.cs" />
+    <Compile Include="Passivation\Entity\Order.cs" />
+    <Compile Include="Passivation\Entity\OrderExamineHelper.cs" />
+    <Compile Include="Passivation\Entity\OrderItem.cs" />
+    <Compile Include="Passivation\Entity\Product.cs" />
+    <Compile Include="Passivation\BusinessManager.cs" />
+    <Compile Include="Passivation\Informationer.cs" />
+    <Compile Include="Passivation\OrderExamineManager.cs" />
+    <Compile Include="Provider\ISaveLogProvider.cs" />
+    <Compile Include="Provider\LogSaveLocalProvider.cs" />
+    <Compile Include="Provider\SaveLogBaseProvider.cs" />
+    <Compile Include="Fluent\ExtHelper.cs" />
+    <Compile Include="Fluent\RequestConfigContext.cs" />
+    <Compile Include="Fluent\RequestConfigManager.cs" />
+    <Compile Include="Fluent\RequestContext.cs" />
+    <Compile Include="Fluent\RequestProtocol.cs" />
+    <Compile Include="Provider\LogEntity.cs" />
+    <Compile Include="PipeLine\ClientModule\ClientForNet2Type.cs" />
+    <Compile Include="PipeLine\ClientModule\ClientPipelineModules.cs" />
+    <Compile Include="PipeLine\ClientModule\ClientTypeForAppType.cs" />
+    <Compile Include="PipeLine\ClientModule\IBuildOperationLogicPipelineObject.cs" />
+    <Compile Include="PipeLine\ClientModule\OperationLogicPipelineObject.cs" />
+    <Compile Include="PipeLine\ClientModule\ClientPipelineObject.cs" />
+    <Compile Include="PipeLine\ClientModule\OperationLogicPipelineObjectFactory.cs" />
+    <Compile Include="PipeLine\Request.cs" />
+    <Compile Include="PipeLine\RequestClientType.cs" />
+    <Compile Include="PipeLine\RequestClientTypeFactory.cs" />
+    <Compile Include="PipeLine\RequestContent.cs" />
+    <Compile Include="Context\Request.cs" />
+    <Compile Include="Context\ContextManager.cs" />
+    <Compile Include="Context\SOAServiceCallContext.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpecificationOutsideHitch\Entity\Customer.cs" />
+    <Compile Include="SpecificationOutsideHitch\Entity\CustomerType.cs" />
+    <Compile Include="SpecificationOutsideHitch\Entity\Order.cs" />
+    <Compile Include="SpecificationOutsideHitch\OrderBusiness.cs" />
+    <Compile Include="SpecificationOutsideHitch\OrderSpecificationManager.cs" />
+    <Compile Include="SpecificationOutsideHitch\OrderSpecificationManagerFactory.cs" />
+    <Compile Include="SpecificationOutsideHitch\SubmitOrderSpecification.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="AsyncMessage.cd" />
+    <None Include="Fluent.cd" />
+    <None Include="Provider.cd" />
+    <None Include="MessageBus.cd" />
+    <None Include="Context.cd" />
+    <None Include="Contract.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

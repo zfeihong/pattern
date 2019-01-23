@@ -1,0 +1,6 @@
+D:\Demo\Anta.Framework\Jackyfei.Framework\bin\Debug\Jackyfei.Framework.exe.config
+D:\Demo\Anta.Framework\Jackyfei.Framework\bin\Debug\Jackyfei.Framework.exe
+D:\Demo\Anta.Framework\Jackyfei.Framework\bin\Debug\Jackyfei.Framework.pdb
+D:\Demo\Anta.Framework\Jackyfei.Framework\obj\Debug\Jackyfei.Framework.exe
+D:\Demo\Anta.Framework\Jackyfei.Framework\obj\Debug\Jackyfei.Framework.pdb
+D:\Demo\Anta.Framework\Jackyfei.Framework\obj\Debug\Jackyfei.Framework.csprojResolveAssemblyReference.cache

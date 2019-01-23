@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+  <ServiceConfig>
+    <Service Address="http://192.168.1.1/OrderService/" Timeout="20"></Service>
+    <Service Address="http://192.168.1.1/ProductService/" Timeout="20"></Service>
+    <Service Address="http://192.168.1.1/PromotionService/" Timeout="20"></Service>
+  </ServiceConfig>

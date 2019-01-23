@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1559BB9E-64DF-47D0-BB86-8DD5A6616312}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JackyFei.Config</RootNamespace>
+    <AssemblyName>JackyFei.Config</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NVelocity">
+      <HintPath>..\Libs\CastleNVelocity-1.1.1\net40\NVelocity.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config\BussinessConfig\OrderConfig\DistributeArea.cs" />
+    <Compile Include="Config\BussinessConfig\OrderConfig\DistributeTime.cs" />
+    <Compile Include="Config\BussinessConfig\OrderConfig\OrderDistributeRoot.cs" />
+    <Compile Include="Config\BussinessConfig\ProductConfig\DomainModelPath.cs" />
+    <Compile Include="Config\BussinessConfig\ProductConfig\ProductConfig.cs" />
+    <Compile Include="Config\BussinessConfig\ProductConfig\Promotion.cs" />
+    <Compile Include="Config\Configuration.cs" />
+    <Compile Include="Config\ConfigurationFactory.cs" />
+    <Compile Include="Config\DynamicConfig\Order.cs" />
+    <Compile Include="Config\DynamicConfig\OrderState.cs" />
+    <Compile Include="Config\DynamicConfig\SendEmailHelper.cs" />
+    <Compile Include="Config\FrameworkConfig\ServiceConfig\ServiceConfig.cs" />
+    <Compile Include="Config\FrameworkConfig\ServiceConfig\Service.cs" />
+    <Compile Include="Config\XsdHelper.cs" />
+    <Compile Include="CustomConfig\ConfigurationSection_\MailServerCollection .cs" />
+    <Compile Include="CustomConfig\IConfigurationSectionHandler_\MailServer.cs" />
+    <Compile Include="CustomConfig\IConfigurationSectionHandler_\MailServerConfig.cs" />
+    <Compile Include="CustomConfig\IConfigurationSectionHandler_\MailServerConfigurationHandler.cs" />
+    <Compile Include="CustomConfig\ConfigurationSection_\MailServerElement.cs" />
+    <Compile Include="CustomConfig\ConfigurationSection_\MailServerSection.cs" />
+    <Compile Include="ManagerConfig\ConfigManager.cs" />
+    <Compile Include="ManagerConfig\ForumConfiguration.cs" />
+    <Compile Include="ManagerConfig\GeneralConfigurationHandler.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strategy\ChineseGreeting.cs" />
+    <Compile Include="Strategy\EnglishGreeting.cs" />
+    <Compile Include="Strategy\GeneralClass.cs" />
+    <Compile Include="Strategy\GreetingConfigHandler.cs" />
+    <Compile Include="Strategy\IGreetingStrategy.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Config\BussinessConfig\OrderConfig\OrderDistribute.xsd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Config\BussinessConfig\ProductConfig\Product.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\FrameworkConfig\ServiceConfig\Service.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Config\DynamicConfig\OrderStateEmailTemple.vm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Config\FrameworkConfig\EmailConfig\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config\BussinessConfig\OrderConfig\OrderDistribute.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

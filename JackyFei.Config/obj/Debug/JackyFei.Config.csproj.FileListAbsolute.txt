@@ -1,0 +1,14 @@
+D:\Demo\Anta.Framework\JackyFei.Config\bin\Debug\JackyFei.Config.exe.config
+D:\Demo\Anta.Framework\JackyFei.Config\bin\Debug\JackyFei.Config.exe
+D:\Demo\Anta.Framework\JackyFei.Config\bin\Debug\JackyFei.Config.pdb
+D:\Demo\Anta.Framework\JackyFei.Config\obj\Debug\JackyFei.Config.csprojResolveAssemblyReference.cache
+D:\Demo\Anta.Framework\JackyFei.Config\obj\Debug\JackyFei.Config.exe
+D:\Demo\Anta.Framework\JackyFei.Config\obj\Debug\JackyFei.Config.pdb
+D:\Demo\Anta.Framework\JackyFei.Config\bin\Debug\Config\BussinessConfig\OrderConfig\OrderDistribute.xsd
+D:\Demo\Anta.Framework\JackyFei.Config\bin\Debug\Config\BussinessConfig\OrderConfig\OrderDistribute.xml
+D:\Demo\Anta.Framework\JackyFei.Config\bin\Debug\Config\BussinessConfig\ProductConfig\Product.xml
+D:\Demo\Anta.Framework\JackyFei.Config\bin\Debug\Config\FrameworkConfig\ServiceConfig\Service.xml
+D:\Demo\Anta.Framework\JackyFei.Config\bin\Debug\NVelocity.dll
+D:\Demo\Anta.Framework\JackyFei.Config\bin\Debug\NVelocity.pdb
+D:\Demo\Anta.Framework\JackyFei.Config\bin\Debug\NVelocity.xml
+D:\Demo\Anta.Framework\JackyFei.Config\bin\Debug\Config\DynamicConfig\OrderStateEmailTemple.vm

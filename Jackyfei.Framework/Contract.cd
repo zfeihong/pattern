@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Jackyfei.Framework.Contract.Contracts.ContractBase">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAIAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Contract\Contracts\ContractBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jackyfei.Framework.Contract.Contracts.ProductStockServiceContract">
+    <Position X="0.75" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAABAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Contract\Contracts\ProductStockServiceContract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jackyfei.Framework.Contract.Contracts.SearchProductStockRequestContract">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Contract\Contracts\SearchProductStockRequestContract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jackyfei.Framework.Contract.Contracts.SearchProductStockResponseContract">
+    <Position X="2.5" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAEIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contract\Contracts\SearchProductStockResponseContract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jackyfei.Framework.Contract.Entity.ProductStock">
+    <Position X="8.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contract\Entity\ProductStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jackyfei.Framework.Contract.ProductStockService">
+    <Position X="8.75" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contract\ProductStockService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Jackyfei.Framework.Contract.ProductStockLocalMember">
+    <Position X="8.75" Y="5.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Contract\ProductStockLocalMember.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jackyfei.Framework.Contract.Util.FluentContractValidator">
+    <Position X="6" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAEAgAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Contract\Util\FluentContractValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jackyfei.Framework.Contract.Util.ValidatorContainer">
+    <Position X="6" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contract\Util\ValidatorContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Jackyfei.Framework.Contract.Interface.IProductStockService">
+    <Position X="8.75" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contract\Interface\IProductStockService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>
